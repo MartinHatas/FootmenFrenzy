@@ -1,0 +1,22 @@
+Material MyMaterial : Common/MatDefs/Terrain/TerrainLighting.j3md {
+    MaterialParameters {
+        DiffuseMap_0_scale : 16.0625
+        AlphaMap_1 : /Textures/terrain-alpha/footmen_frenzy_map-terrain-footmen_frenzy_map-alphablend1.png
+        AlphaMap_2 : /Textures/terrain-alpha/footmen_frenzy_map-terrain-footmen_frenzy_map-alphablend2.png
+        WardIso : true
+        DiffuseMap : Flip Repeat /Textures/dirt.jpg
+        AlphaMap : /Textures/terrain-alpha/footmen_frenzy_map-terrain-footmen_frenzy_map-alphablend0.png
+        Shininess : 0.01
+    }
+    AdditionalRenderState {
+        FaceCull Back
+        Wireframe Off
+        DepthWrite On
+        PolyOffset 0.0 0.0
+        AlphaTestFalloff 0.0
+        Blend Off
+        PointSprite Off
+        ColorWrite On
+        DepthTest On
+    }
+}
